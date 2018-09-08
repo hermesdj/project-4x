@@ -1,0 +1,72 @@
+##
+## PROJET4X PROJECT, 2018
+## BrainStorming 28/01/2018
+## File description:
+## Systèmes d'unités
+##
+
+3 niveaux:
+  Taille:
+        Minuscule: Dam
+	Petit: MégaMètre
+	Grande: ua
+
+  Masse:
+        Minuscule:Tonne
+  	Petit: 10¹²Kg
+  	Grande: 10²⁴Kg
+	10³⁰ kg
+	ua
+	année terrestre
+	
+
+  Temps:
+	Minuscule: Seconde
+	Petit: Jour Terrien
+
+  Énergie:
+	Minuscule: Gj
+
+	
+
+  	
+
+ExtraSystème: 
+
+IntraSystème: 
+Astre:
+	Rayon:
+	TYPE_RAYON:
+	
+	Masse:
+	TYPE_MASS
+	Name:
+	Composition:
+	HASMAGNETIC_FIELD
+	MAGNETIC_FIELD_FORCE
+	
+Stars: public Astre
+	SystemName: String
+	Emet des radiations?: boolean
+	Types de radiations: ENUM_RADIATIONS
+	Flux (niveau d'énergie): unsigned int (GW) (GJ)
+	Classe: ENUM_CLASSE_ETOILES
+	Moment Cinétique: m/rad -> Aléatoire
+	
+
+Planètes:
+//	Rotation:
+	TemperaturePression: TRUC
+	Albédo: float
+	hasAtmosphere: bool
+	CompositonAtmosphere: Ressource
+	EpaisseurAtmosphere: Ressource
+	CanHoldAtmosphere: bool
+	Excentricité: [0;1]
+	EnergieGagnée: 
+	EnergiePerdue:
+	FluxDeMatières:
+	Vitesse:
+	
+	
+	

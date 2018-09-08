@@ -1,0 +1,27 @@
+a = demi-grand axe qu'on calcule avec l'aphélie de la table. sa valeur est {0;10⁸ } u.a (estimation) . a = aphélie / (1+e)(modifié)
+
+demi petit axe = RACINE(-(a^2)*(((e)^2)-1))
+PÉRIODE DE ROTATION= (2PI * sqrt((orbital moyen³)/(constante de grav * (masse de l'étoile + masse planète))))
+DISLOCATION = sqrt3 (r_planèe * 2.423 * (densité de l'étoile / densité planète))
+Surface = (3* masse / densité) / rayon planète? Aire totale = pi * petit demi axe * grand axe(modifié)
+Périmètre = 2PI sqrt((demi petit axe² + demi grand axe²) / 2)
+sin(E) = RACINE(1- e²) * SIN(tw)/(1+eCOS(tw))
+cos (E) = (e+COS(tw))/((1+eCOS(tw)))
+Air_M(E) = (- (ecosE)+ASIN(sinE))/ Air_total
+Surface = 3 ( masse / densité) / rayon planète ua/sec
+v(t) = viresse_moyenne * (1+Air(t) * e )
+r(t) = =(a(1- e² )) / (1 + eCOS(15*v(t) * t ))
+Vitesse du jeu en S de base = 1296000
+nombre de seconde IG dans 1 sec IRL = C
+COORDONNES POLAIRES:
+ANGLE: O(r(t)) = ( v(t) * C / r(t) ) + O(r(t-1))
+RAYON: r(t) = =(a(1- e² )) / (1 + eCOS(C *v(t) * t ))
+
+
+e est l'excentricité {0;0,99999} avec 3 à 5 chiffre après la virgule . c'est ce qui donne la forme de l'ellipse orbitale. détermination aléatoire (basique) borné.
+
+l'aphélie est bornée, détermination (pour le moment ? ) aléatoire basique.(modifié)
+Attention, après "regardage en régle) faut entre 2 à 3 chiffre significatif pour a (si en ua)
+
+donc plutot prévoir 10¹¹ en terme case (en suprimant les virgule par un X1000)(modifié)
+les chiffre ne peuvent être négatif
